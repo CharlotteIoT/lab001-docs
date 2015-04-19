@@ -20,5 +20,5 @@ You will be building a doorbell device that will have a push button switch to si
 - If the security mode is stay then no ring sound will be played
 
 ### Lab Steps
-1. [Getting Started][GettingStarted]
+1. [Getting Started](GettingStarted.md) - Setup for the lab
 
