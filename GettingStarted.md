@@ -1,7 +1,8 @@
 ### Getting Started
 
 
-1. Wire up the push button switch to the Raspberry Pi as follows:
+1. Make sure you know what **door number** your Raspberry Pi will be for the Lab.  Each participant should have a unique door number that they will use throughout the lab.
+2. Wire up the push button switch to the Raspberry Pi as follows:
 TODO create a picture that shows the connections
 2. Plug in your Speakers or Headphones into he Raspberry Pi
 3. Plug in the Ethernet cable into the Pi

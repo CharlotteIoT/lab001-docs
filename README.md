@@ -21,4 +21,9 @@ You will be building a doorbell device that will have a push button switch to si
 
 ### Lab Steps
 1. [Getting Started](GettingStarted.md) - Setup for the lab
+2. [Step 1](Step1.md) - Read the doorbell button and publish a message
+3. [Step 2](Step2.md) - Subscribe to the ring topic and play a sound
+4. [Step 3](Step3.md) - Subscribe to the security mode topic and play a barking dog sound or suppress all sounds
+5. [Step 4](Step4.md) - Send a message when publishing a topic and then call google translate to play the message through the speakers
+6. [Step 5](Step5.md) - Play music while also doing doorbell functions
 
