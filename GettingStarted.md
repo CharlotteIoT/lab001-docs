@@ -8,10 +8,13 @@ TODO create a picture that shows the connections
 3. Plug in the USB power cable and power up the Pi
 4. Listen for the IP Address to be announced through the speakers and make a note of it
 5. Run Putty (or other telnet program) on your laptop and use the Pi's IP address to connect to it.
-6. Use **pi** for the user name
-7. Use **raspberry** for the password
+6. At the **logon as:** prompt enter **pi**
+7. At the **password** prompt enter **raspberry**
 8. You should be at the linux shell prompt after the credentials have been entered correctly
-9. Execute the git command to clone the repository
+9. Execute the following git command to clone the repository for the lab
+	1. git clone https://github.com/CharlotteIoT/Lab001-pi.git
+
+[Previous](README.md) [Next](Step1.md)
 
  
 
