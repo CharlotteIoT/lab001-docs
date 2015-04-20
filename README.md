@@ -1,8 +1,17 @@
 # Raspberry Pi Smart Doorbell Lab
 This Lab will use Raspberry Pi's to build a smart doorbell that changes it's behavior based on the mode that a security system is placed in.  All the devices are connected together by a broker using the [MQTT](http://mqtt.org/ "MQTT") protocol.  The lab will take you through multiple steps to complete the entire project.  
 
-### What Should you Bring
-- Laptop preferably with an ethernet connection
+### What will be provided to you
+- Raspberry Pi 2
+- Door Number - a number (1-15) that you will use in the code
+- 8gb SD Card pre-loaded with Raspian and any other dependencies to complete the lab
+- Ethernet Cable
+- Micro USB Cable
+- Push button Switch
+
+### What should you bring
+- Laptop preferably with an Ethernet connection
+- USB Power Source or your Laptop
 - Telnet Client such as putty
 	- [Putty via Chocolatey](https://chocolatey.org/packages/putty "Putty via Chocolatey")
 	- [http://www.chiark.greenend.org.uk/~sgtatham/putty/](http://www.chiark.greenend.org.uk/~sgtatham/putty/ "Putty website")   
@@ -27,3 +36,7 @@ You will be building a doorbell device that will have a push button switch to si
 5. [Step 4](Step4.md) - Send a message when publishing a topic and then call google translate to play the message through the speakers
 6. [Step 5](Step5.md) - Play music while also doing doorbell functions
 
+### Useful resources
+- [Setting up the SD Image](SetupSDImage.md) - If you want to create your own image for this lab then follow these instructions
+- [Logitech Media Server](http://allthingspi.webspace.virginmedia.com/lms.php) - How to guide on setting up the media server
+- [Squeezelite Client](http://www.gerrelt.nl/RaspberryPi/wordpress/tutorial-installing-squeezelite-player-on-raspbian/) - How to guide on setting up a client that connects to Logitech Media Server
