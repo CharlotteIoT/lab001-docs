@@ -38,4 +38,6 @@ The SD Image has already been setup for you in the lab but these instructions te
 	
 	**sudo pip install mp3play**
 
+15. Install Squeezelite client (TODO)
+
 [Home](README.md)
