@@ -21,7 +21,7 @@ Modify the python script that subscribes to the ring topic and plays a sound.
 8. Edit the **sub_ring.py** script and change the door number in the subscribe command to be the wild card character.
 
 	**client.subscribe("protosystem/door/+/ring")**
-9. Execute the python script and verify that when any of the Raspberry Pi's doorbell button is pressed then a ring sound is played by your Pi.
-
+9. Execute the python script and verify that when any of the Raspberry PI's doorbell button is pressed then a ring sound is played by your Pi (and all other PI's that are using the same subscription wildcard.
+   
 
 [Home](README.md) [Previous](Step1.md) [Next](Step3.md)
