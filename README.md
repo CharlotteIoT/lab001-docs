@@ -38,5 +38,6 @@ You will be building a doorbell device that will have a push button switch to si
 
 ### Useful resources
 - [Setting up the SD Image](SetupSDImage.md) - If you want to create your own image for this lab then follow these instructions
-- [Logitech Media Server](http://allthingspi.webspace.virginmedia.com/lms.php) - How to guide on setting up the media server
+- [Logitech Media Server](http://allthingspi.webspace.virginmedia.com/lms.php) - How to guide on setting up a media server on the Raspberry PI
+- [Logitech Media Sever Downloads](http://downloads.slimdevices.com/nightly/?ver=7.7) - You can get a windows install from here
 - [Squeezelite Client](http://www.gerrelt.nl/RaspberryPi/wordpress/tutorial-installing-squeezelite-player-on-raspbian/) - How to guide on setting up a client that connects to Logitech Media Server
