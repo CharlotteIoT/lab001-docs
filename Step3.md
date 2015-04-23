@@ -47,6 +47,12 @@ The payload for this topic is one of the following: away, stay, disarmed
 			filenamering1 = r'../Media/dog_bark4.wav'
 			subprocess.Popen([ "/usr/bin/aplay", '-q', filenamering1 ] )	
 	```
+7. Execute the **pub_ring.py** script.
+8. Open another shell prompt using putty
+9. Execute the **sub_ring.py** script.
+10. Test that you doorbell works, ask the instructor to put the security system in different modes to test all functions.  
+11. Exit the **pub_ring.py** script using **ctrl-c**
+12. Exit the **sub_ring.py** script using **ctrl-z**
 
 
 [Home](README.md) [Step 2](Step2.md) [Step 4](Step4.md)
