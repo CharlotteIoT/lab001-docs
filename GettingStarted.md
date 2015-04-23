@@ -28,7 +28,17 @@ NOTE: All commands in linux are case sensitive so make sure you pay attention to
 git clone https://github.com/CharlotteIoT/Lab001-pi.git
 ...
 
+The code in the repository is organized in the following folders:
 
+- Begin - this contains the starting point of the lab.
+- Media - this contains the audio files for the lab
+- Step1 - this is the code after you complete step 1 of the lab
+- Step2 - this is the code after you complete step 2 of the lab
+- Step3 - this is the code after you complete step 3 of the lab
+- Step4 - this is the code after you complete step 4 of the lab
+
+You can make all your edits to the python code in the Begin folder and if you get stuck you can use the code in each Step folder to help you out or run the code in the Step folder.
+ 
 [Previous](README.md) [Next](Step1.md)
 
  

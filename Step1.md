@@ -31,4 +31,4 @@ The instructor should be running an audit program on the classroom projector so 
 
 Use **ctrl-c** to exit the python script in the telnet program. 
 
-[Home](README.md) [Previous](GettingStarted.md) [Next](Step2.md)
+[Home](README.md) [Getting Started](GettingStarted.md) [Step 2](Step2.md)

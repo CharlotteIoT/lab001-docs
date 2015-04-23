@@ -28,6 +28,13 @@ You will be building a doorbell device that will have a push button switch to si
 - If the security mode is away then the normal doorbell ring will be played but 2 seconds later a barking sound will be played
 - If the security mode is stay then no ring sound will be played
 
+#### MQTT topics
+The following MQTT topics will be used for this lab:
+	
+     protosystem/door/1/ring
+     protosystem/security/mode
+
+
 ### Lab Steps
 1. [Getting Started](GettingStarted.md) - Setup for the lab
 2. [Step 1](Step1.md) - Read the doorbell button and publish a message

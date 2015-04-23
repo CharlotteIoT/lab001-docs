@@ -24,4 +24,4 @@ Modify the python script that subscribes to the ring topic and plays a sound.
 9. Execute the python script and verify that when any of the Raspberry PI's doorbell button is pressed then a ring sound is played by your Pi (and all other PI's that are using the same subscription wildcard.
    
 
-[Home](README.md) [Previous](Step1.md) [Next](Step3.md)
+[Home](README.md) [Step 1](Step1.md) [Step 3](Step3.md)
