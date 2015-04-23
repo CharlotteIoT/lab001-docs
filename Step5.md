@@ -1,5 +1,5 @@
 ### Step 5
 
-TODO
+Play music while also doing doorbell functions.
 
 [Home](README.md) [Step 4](Step4.md) 
