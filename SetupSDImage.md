@@ -37,9 +37,9 @@ The SD Image has already been setup for you in the lab but these instructions te
 	
 	**sudo pip install paho-mqtt**
 
-15. Install mp3player (might not really be needed)
+15. Install MPG321 to play MP3 audio files
 	
-	**sudo pip install mp3play**
+	**sudo apt-get -y install mpg321**
 
 15. Install Squeezelite client (TODO)
 
