@@ -39,7 +39,7 @@ The code in the repository is organized in the following folders:
 
 You can make all your edits to the python code in the Begin folder and if you get stuck you can use the code in each Step folder to help you out or run the code in the Step folder.
  
-[Previous](README.md) [Next](Step1.md)
+[Home](README.md) | [Step 1](Step1.md)
 
  
 

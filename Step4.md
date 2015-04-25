@@ -59,4 +59,4 @@ Send a message when publishing a topic and then call google translate to play th
 12. Stop the **sub_ring.py** script using **ctrl-z**
 
 
-[Home](README.md) [Step 3](Step3.md) [Step 5](Step5.md) 
+[Home](README.md) | [Step 3](Step3.md) | [Step 5](Step5.md) 

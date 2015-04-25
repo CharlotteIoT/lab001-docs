@@ -30,4 +30,4 @@ Play music while also doing doorbell functions.  Note: this step assumes you hav
 7. Press your Doorbell Button and the door bell should ring along with the music playing as well as the google translate text to speech audio. 
  
 
-[Home](README.md) [Step 4](Step4.md) 
+[Home](README.md) | [Step 4](Step4.md) 

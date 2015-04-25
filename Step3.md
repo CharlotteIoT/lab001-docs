@@ -55,4 +55,4 @@ The payload for this topic is one of the following: away, stay, disarmed
 12. Stop the **sub_ring.py** script using **ctrl-z**
 
 
-[Home](README.md) [Step 2](Step2.md) [Step 4](Step4.md)
+[Home](README.md) | [Step 2](Step2.md) | [Step 4](Step4.md)
