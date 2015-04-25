@@ -59,5 +59,8 @@ The SD Image has already been setup for you in the lab but these instructions te
 
     **sudo chmod a+x squeezelite-armv6hf**
 
+17. Install Remote Desktop Protocol server for X Windows over RDP (Optional)
+
+	**sudo apt-get install xrdp**
 
 [Home](README.md)

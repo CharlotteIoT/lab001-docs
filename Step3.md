@@ -51,8 +51,8 @@ The payload for this topic is one of the following: away, stay, disarmed
 8. Open another shell prompt using putty
 9. Execute the **sub_ring.py** script.
 10. Test that your doorbell works, ask the instructor to put the security system in different modes to test all functions.  
-11. Exit the **pub_ring.py** script using **ctrl-c**
-12. Exit the **sub_ring.py** script using **ctrl-z**
+11. Stop the **pub_ring.py** script using **ctrl-c**
+12. Stop the **sub_ring.py** script using **ctrl-z**
 
 
 [Home](README.md) [Step 2](Step2.md) [Step 4](Step4.md)
