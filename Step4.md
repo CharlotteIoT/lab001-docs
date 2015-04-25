@@ -1,6 +1,6 @@
 ### Step 4
 
-Send a message when publishing a topic and then call google translate to play the message through the speakers.
+Send a message when publishing a topic and then call google translate to play the message through the speakers.  Note: this step assumes you have completed all previous steps.
 
 1. Open up 2 telnet sessions (if you don't already have 2 open) from your laptop to your Raspberry PI
 2. In one of the telnet sessions change to the directory where your python scripts are

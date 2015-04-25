@@ -1,6 +1,6 @@
 ### Step 5
 
-Play music while also doing doorbell functions.
+Play music while also doing doorbell functions.  Note: this step assumes you have completed all previous steps.
 
 1. Open up 3 telnet sessions (if you don't already have 3 open) from your laptop to your Raspberry PI
 2. In one of the telnet sessions change to the directory where your python scripts are
