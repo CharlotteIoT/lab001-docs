@@ -11,7 +11,7 @@ Where the **#** should be the **door number** you were given when you got your P
 **NOTE:** linux is case sensitive in all commands so be careful when you type in any commands while on the Raspberry Pi telnet session.
 
 
-1. Using the telnet program putty change to the directory that contains the Step1 code by entering the following:
+1. Using the telnet program putty change to the directory that contains the code by entering the following:
 
 	**cd ~/Lab001-pi/Begin**
 
