@@ -41,6 +41,23 @@ The SD Image has already been setup for you in the lab but these instructions te
 	
 	**sudo apt-get -y install mpg321**
 
-15. Install Squeezelite client (TODO)
+16. Install Squeezelite client
+
+	sets up the audio mixer and adjusts the sound level
+
+    **sudo alsamixer** 
+
+    **mkdir squeezelite**
+
+    **cd squeezelite**
+
+    **wget http://squeezelite-downloads.googlecode.com/git/squeezelite-armv6hf**
+
+    **sudo mv squeezelite-armv6hf /usr/bin**
+
+    **cd /usr/bin**
+
+    **sudo chmod a+x squeezelite-armv6hf**
+
 
 [Home](README.md)
