@@ -5,7 +5,7 @@ NOTE: All commands in linux are case sensitive so make sure you pay attention to
 1. Make sure you know what **door number** your Raspberry Pi will be for the Lab.  Each participant should have a unique door number that they will use throughout the lab.
 2. The Raspberry PI 2 has the following layout:
 	
-	![Raspberry PI 2](img/pi2board.png)
+	![Raspberry PI 2](img/pi2board-min.png)
 
 3. Wire up the push button switch to the Raspberry Pi as shown in the above picture
 4. Plug in your Speakers or Headphones into he Raspberry PI's Audio 3.5mm jack
