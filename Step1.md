@@ -13,17 +13,24 @@ Where the **#** should be the **door number** you were given when you got your P
 
 1. Using the telnet program putty change to the directory that contains the code by entering the following:
 
-	**cd ~/Lab001-pi/Begin**
+	```
+	cd ~/Lab001-pi/Begin
+	```
+
 
 2. Use the nano editor to edit the python script and change the publish statement to use the correct door number.  To launch the nano editor use the following command:
 
-	**sudo nano pub_ring.py**
+	```
+	sudo nano pub_ring.py
+	```
+
 3. Edit the **publish.single("protosystem/door/1/ring", "", hostname="test.mosquitto.org")** by replacing the 1 in the topic to the door number that was given to you when you got your PI from the instructor.
 4. Make the necessary changes and save the file by using **ctrl-o** and exit the editor by using **ctrl-x**. 
 5. To run the python script use the following command:
 
-	**sudo python pub_ring.py**
-
+	```
+	sudo python pub_ring.py
+	```
 
 The instructor should be running an audit program on the classroom projector.  This audit program is monitoring all published messages sent to the **protosystem/#** topic.  The **#** in the topic is a wildcard character that tells the MQTT broker that the audit program wants to subscribe to all topics that start with **protosystem/**.  Watch the audit program on the projector when you press the doorbell button on your PI.  You should see your topic show up on the audit program.
 
