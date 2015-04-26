@@ -45,8 +45,8 @@ The following MQTT topics will be used for this lab:
 7. [Step 5](Step5.md) - Play music while also doing doorbell functions
 
 ### Useful resources
-- [Raspberry PI Source for Lab](https://github.com/CharlotteIoT/Lab001-pi) - if you want to look over the source for the lab.
-- [Setting up the SD Image](SetupSDImage.md) - If you want to create your own image for this lab then follow these instructions.  Note: this is done for you if you are attending the lab.
+- [Raspberry PI Source for the Lab](https://github.com/CharlotteIoT/Lab001-pi) - if you want to look over the source for the lab.
+- [Setting up the SD Image for the Lab](SetupSDImage.md) - If you want to create your own image for this lab then follow these instructions.  Note: this is done for you if you are attending the lab.
 - [Windows tools for the Lab](https://github.com/CharlotteIoT/lab001-win) - If you are the instructor for the lab then these are the tools you need to run on your laptop. 
 - [Logitech Media Server](http://allthingspi.webspace.virginmedia.com/lms.php) - How to guide on setting up a media server on the Raspberry PI.
 - [Logitech Media Sever Downloads](http://downloads.slimdevices.com/nightly/?ver=7.7) - You can get a windows install from here.
