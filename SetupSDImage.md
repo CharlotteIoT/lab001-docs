@@ -83,10 +83,16 @@ The SD Image has already been setup for you in the lab but these instructions te
 	```
 	1. Change the following in the vsftpd config file
 
-	```
-	listen=YES
-	anonymous_enable=NO
-	write_enable=YES
-	```
+		```
+		listen=YES
+		anonymous_enable=NO
+		write_enable=YES
+		```
+	2. Restart the FTP Service
+	
+		```
+		sudo service vsftpd restart
+		```
+
 
 [Home](README.md)
