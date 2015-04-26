@@ -36,16 +36,19 @@ The following MQTT topics will be used for this lab:
 
 
 ### Lab Steps
-1. [Getting Started](GettingStarted.md) - Setup for the lab
-2. [Step 1](Step1.md) - Read the doorbell button and publish a message
-3. [Step 2](Step2.md) - Subscribe to the ring topic and play a sound
-4. [Step 3](Step3.md) - Subscribe to the security mode topic and play a barking dog sound or suppress all sounds
-5. [Step 4](Step4.md) - Send a message when publishing a topic and then call google translate to play the message through the speakers
-6. [Step 5](Step5.md) - Play music while also doing doorbell functions
+1. [Instructor Information](https://github.com/CharlotteIoT/lab001-win) - If you are the instructor for the lab then you need to take a look at this repo to setup your laptop for the lab.
+2. [Getting Started](GettingStarted.md) - Setup for the lab
+3. [Step 1](Step1.md) - Read the doorbell button and publish a message
+4. [Step 2](Step2.md) - Subscribe to the ring topic and play a sound
+5. [Step 3](Step3.md) - Subscribe to the security mode topic and play a barking dog sound or suppress all sounds
+6. [Step 4](Step4.md) - Send a message when publishing a topic and then call google translate to play the message through the speakers
+7. [Step 5](Step5.md) - Play music while also doing doorbell functions
 
 ### Useful resources
-- [Setting up the SD Image](SetupSDImage.md) - If you want to create your own image for this lab then follow these instructions
-- [Logitech Media Server](http://allthingspi.webspace.virginmedia.com/lms.php) - How to guide on setting up a media server on the Raspberry PI
-- [Logitech Media Sever Downloads](http://downloads.slimdevices.com/nightly/?ver=7.7) - You can get a windows install from here
-- [Squeezelite Client](http://www.gerrelt.nl/RaspberryPi/wordpress/tutorial-installing-squeezelite-player-on-raspbian/) - How to guide on setting up a client that connects to Logitech Media Server
-- [MQTT Manpages](http://mosquitto.org/man/mqtt-7.html)
+- [Raspberry PI Source for Lab](https://github.com/CharlotteIoT/Lab001-pi) - if you want to look over the source for the lab.
+- [Setting up the SD Image](SetupSDImage.md) - If you want to create your own image for this lab then follow these instructions.  Note: this is done for you if you are attending the lab.
+- [Windows tools for the Lab](https://github.com/CharlotteIoT/lab001-win) - If you are the instructor for the lab then these are the tools you need to run on your laptop. 
+- [Logitech Media Server](http://allthingspi.webspace.virginmedia.com/lms.php) - How to guide on setting up a media server on the Raspberry PI.
+- [Logitech Media Sever Downloads](http://downloads.slimdevices.com/nightly/?ver=7.7) - You can get a windows install from here.
+- [Squeezelite Client](http://www.gerrelt.nl/RaspberryPi/wordpress/tutorial-installing-squeezelite-player-on-raspbian/) - How to guide on setting up a client that connects to Logitech Media Server.
+- [MQTT Manpages](http://mosquitto.org/man/mqtt-7.html) - Some quick info on MQTT.
