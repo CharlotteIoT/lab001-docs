@@ -13,7 +13,9 @@ The SD Image has already been setup for you in the lab but these instructions te
 6. Install festival text to speech
 
 	**sudo apt-get install festival**
-7. Edit the **/etc/rc.local** file and add the following before the exit 0:
+7. Edit the **/etc/init.d/rc.local** file and add the following at the very end of the file:
+
+	**sleep 5**
 
 	**hostname -I | festival --tts**
 
