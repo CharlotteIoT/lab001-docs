@@ -15,9 +15,11 @@ The SD Image has already been setup for you in the lab but these instructions te
 	**sudo apt-get install festival**
 7. Edit the **/etc/init.d/rc.local** file and add the following at the very end of the file:
 
-	**sleep 5**
-
-	**hostname -I | festival --tts**
+	```
+	sleep 5
+	MY_IP=`hostname -I | sed -e 's/\./ dot /g' -e 's/[0123456789]/ & /g'`
+	echo "My I P address is $MY_IP" | /usr/bin/festival --tts
+	```
 
 8. Run raspi-config
 	
