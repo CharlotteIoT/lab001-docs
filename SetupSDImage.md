@@ -75,4 +75,18 @@ The SD Image has already been setup for you in the lab but these instructions te
 	sudo apt-get install xrdp
 	```
 
+19. Install FTP server (Optional)
+
+	```
+	sudo apt-get install vsftpd
+	sudo nano /etc/vsftpd.conf
+	```
+	1. Change the following in the vsftpd config file
+
+	```
+	listen=YES
+	anonymous_enable=NO
+	write_enable=YES
+	```
+
 [Home](README.md)
