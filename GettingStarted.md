@@ -24,9 +24,10 @@ NOTE: All commands in linux are case sensitive so make sure you pay attention to
 	![Shell Prompt](img/shellprompt.png)
 
 14. Execute the following git command to clone the repository for the lab
-...    
-git clone https://github.com/CharlotteIoT/Lab001-pi.git
-...
+
+	```
+	git clone https://github.com/CharlotteIoT/Lab001-pi.git
+	```
 
 The code in the repository is organized in the following folders:
 
