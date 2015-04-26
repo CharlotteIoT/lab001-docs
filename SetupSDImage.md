@@ -34,29 +34,28 @@ The SD Image has already been setup for you in the lab but these instructions te
 9. Change the local by unchecking en_GB and checking en_US.UTF-8 UTF-8
 10. Set the time zone
 11. Set the keyboard
-11. Set the audio to force the 3.5mm audio jack instead of HDMI audio
-12. Expand the file system
+12. Set the audio to force the 3.5mm audio jack instead of HDMI audio
 13. Exit the raspi-config and reboot the PI
-12. Install Python Tools
+14. Install Python Tools
 
 	```
 	sudo apt-get install python-setuptools
 	sudo easy_install pip
 	```
 
-14. Install Python MQTT module
+15. Install Python MQTT module
 	
 	```
 	sudo pip install paho-mqtt
 	```
 
-15. Install MPG321 to play MP3 audio files
+16. Install MPG321 to play MP3 audio files
 	
 	```
 	sudo apt-get -y install mpg321
 	```
 
-16. Install Squeezelite client
+17. Install Squeezelite client
 
 	sets up the audio mixer and adjusts the sound level
 
@@ -70,7 +69,7 @@ The SD Image has already been setup for you in the lab but these instructions te
     sudo chmod a+x squeezelite-armv6hf
 	```
 
-17. Install Remote Desktop Protocol server for X Windows over RDP (Optional)
+18. Install Remote Desktop Protocol server for X Windows over RDP (Optional)
 
 	```
 	sudo apt-get install xrdp
