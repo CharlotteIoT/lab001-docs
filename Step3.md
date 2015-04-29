@@ -19,13 +19,14 @@ The payload for this topic is one of the following: away, stay, disarmed
 	mode = 'unknown'
 	```
 
-4. Add code to the top of the **on_message** function to declare the mode variable as global
+4. Remove all the existing code in the **on_message** function except for the **print** statement.
+5. Add code to the top of the **on_message** function after the **print** statement to declare the **mode** variable as global
  
 	```python
 	global mode
 	```
   
-5. Add code to the **on_message** function to test if the topic is /mode and assign the variable created in the previous step to the payload of MQTT msg.  
+6. Add code to the **on_message** function to test if the topic is /mode and assign the variable created in the previous step to the payload of MQTT msg.  
  
 	```python
 	if '/mode' in msg.topic:
@@ -33,7 +34,7 @@ The payload for this topic is one of the following: away, stay, disarmed
 		print mode
 	```
 
-6. Add code to the **on_message** function to test if the topic is /mode and assign the variable created in the previous step to the payload of MQTT msg.  
+7. Add code to the **on_message** function to test if the topic is /mode and assign the variable created in the previous step to the payload of MQTT msg.  
 
 	```python
 	if '/ring' in msg.topic:
@@ -47,12 +48,12 @@ The payload for this topic is one of the following: away, stay, disarmed
 			filenamering1 = r'../Media/dog_bark4.wav'
 			subprocess.Popen([ "/usr/bin/aplay", '-q', filenamering1 ] )	
 	```
-7. Execute the **pub_ring.py** script.
-8. Open another shell prompt using putty
-9. Execute the **sub_ring.py** script.
-10. Test that your doorbell works, ask the instructor to put the security system in different modes to test all functions.  
-11. Stop the **pub_ring.py** script using **ctrl-c**
-12. Stop the **sub_ring.py** script using **ctrl-z**
+8. Execute the **pub_ring.py** script.
+9. Open another shell prompt using putty
+10. Execute the **sub_ring.py** script.
+11. Test that your doorbell works, ask the instructor to put the security system in different modes to test all functions.  
+12. Stop the **pub_ring.py** script using **ctrl-c**
+13. Stop the **sub_ring.py** script using **ctrl-z**
 
 
 [Home](README.md) | [Step 2](Step2.md) | [Step 4](Step4.md)
