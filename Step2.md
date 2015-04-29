@@ -20,7 +20,7 @@ Modify the python script that subscribes to the ring topic and plays a sound.
 6. Execute the python script and verify that when you press your doorbell button that the doorbell sound comes out of the Raspberry PI Audio jack.
 	
 	```
-	sudo pyhton sub_ring.py
+	sudo python sub_ring.py
 	```
 
 7. Use **ctrl-c** to exit your python script
