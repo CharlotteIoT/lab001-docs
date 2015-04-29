@@ -31,7 +31,7 @@ The SD Image has already been setup for you in the lab but these instructions te
 	sudo raspi-config  
 	```
 
-9. Change the local by unchecking en_GB and checking en_US.UTF-8 UTF-8
+9. Change the locale by unchecking en_GB and checking en_US.UTF-8 UTF-8
 10. Set the time zone
 11. Set the keyboard
 12. Set the audio to force the 3.5mm audio jack instead of HDMI audio
