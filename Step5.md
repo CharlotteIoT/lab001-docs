@@ -32,6 +32,9 @@ Play music while also doing doorbell functions.  Note: this step assumes you hav
 9. Log into X Windows using **pi** and **raspberry**
 
 Congrats you have completed the lap and you now have multiple things running on a single Raspberry PI.  This thing is awesome isn't it!!!! 
- 
+
+Shutdown your Raspberry PI by using the X Windows menu interface (upper left hand corner of the screen) or typing in the following command in a telnet session:
+
+	sudo shutdown now -h 
 
 [Home](README.md) | [Step 4](Step4.md) 
