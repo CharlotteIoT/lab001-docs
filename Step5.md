@@ -27,7 +27,11 @@ Play music while also doing doorbell functions.  Note: this step assumes you hav
 
 5. Tell the instructor that you are ready for music to be streamed to your Raspberry PI.  The instructor will add your squeezelite client to the Logitech Media Server so that it receives the same streaming audio the other Raspberry PI clients are.
 6. You should be hearing the music playing through your Raspberry PI's audio jack.
-7. Press your Doorbell Button and the door bell should ring along with the music playing as well as the google translate text to speech audio. 
+7. Press your Doorbell Button and the door bell should ring along with the music playing as well as the google translate text to speech audio.
+8. Open up **Remote Desktop Connection** on your windows laptop and use your Raspberry PI's IP address to connect to the PI using X Windows.
+9. Log into X Windows using **pi** and **raspberry**
+
+Congrats you have completed the lap and you now have multiple things running on a single Raspberry PI.  This thing is awesome isn't it!!!! 
  
 
 [Home](README.md) | [Step 4](Step4.md) 
