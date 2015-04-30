@@ -13,7 +13,7 @@ Modify the python script that subscribes to the ring topic and plays a sound.
 4. Edit the **sub_ring.py** script and change the 1 in the subscribe command to be the **door number** you were given.
 
 	```
-	sudo nano sub_ring.py
+	nano sub_ring.py
 	```
 
 5. Use **ctrl-o** to save your changes and **ctrl-x** to exit the editor
