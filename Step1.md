@@ -21,7 +21,7 @@ Where the **#** should be the **door number** you were given when you got your P
 2. Use the nano editor to edit the python script and change the publish statement to use the correct door number.  To launch the nano editor use the following command:
 
 	```
-	sudo nano pub_ring.py
+	nano pub_ring.py
 	```
 
 3. Edit the **publish.single("protosystem/door/1/ring", "", hostname="test.mosquitto.org")** by replacing the 1 in the topic to the door number that was given to you when you got your PI from the instructor.

@@ -31,51 +31,53 @@ The SD Image has already been setup for you in the lab but these instructions te
 	sudo raspi-config  
 	```
 
-9. Change the locale by unchecking en_GB and checking en_US.UTF-8 UTF-8
-10. Set the time zone
-11. Set the keyboard
-12. Set the audio to force the 3.5mm audio jack instead of HDMI audio
-13. Exit the raspi-config and reboot the PI
-14. Install Python Tools
+9. Select the "Internationalisation Options" menu option
+10. Change the locale by unchecking en_GB and checking en_US.UTF-8 UTF-8
+11. Set the time zone
+12. Set the keyboard
+13. Select the "<Back>" menu option
+14. Select the "Advanced Options" menu option"
+15. Set the audio to force the 3.5mm audio jack instead of HDMI audio
+16. Exit the raspi-config and reboot the PI
+17. Install Python Tools
 
 	```
 	sudo apt-get install python-setuptools
 	sudo easy_install pip
 	```
 
-15. Install Python MQTT module
+18. Install Python MQTT module
 	
 	```
 	sudo pip install paho-mqtt
 	```
 
-16. Install MPG321 to play MP3 audio files
+19. Install MPG321 to play MP3 audio files
 	
 	```
 	sudo apt-get -y install mpg321
 	```
 
-17. Install Squeezelite client
+20. Install Squeezelite client
 
 	sets up the audio mixer and adjusts the sound level
 
 	```
-    sudo alsamixer 
-    mkdir squeezelite
-    cd squeezelite
+    sudo alsamixer
+    # Hit escape to exit the curses application
     wget http://squeezelite-downloads.googlecode.com/git/squeezelite-armv6hf
     sudo mv squeezelite-armv6hf /usr/bin
     cd /usr/bin
     sudo chmod a+x squeezelite-armv6hf
 	```
 
-18. Install Remote Desktop Protocol server for X Windows over RDP (Optional)
+21. Install Remote Desktop Protocol server for X Windows over RDP (Optional)
 
 	```
 	sudo apt-get install xrdp
 	```
 
-19. Install FTP server (Optional)
+22. Install FTP server (Optional)
 
 	```
 	sudo apt-get install vsftpd
